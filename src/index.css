@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{font-family:'DM Sans',sans-serif;color:#202622;background:#fffdf9;font-synthesis:none;text-rendering:optimizeLegibility}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0}button,input,select{font:inherit}::selection{background:#dce5dc;color:#183b35}.display{font-family:'Playfair Display',Georgia,serif}.section-pad{padding:84px max(24px,calc((100vw - 1240px)/2))}.hide-scrollbar::-webkit-scrollbar{display:none}.hide-scrollbar{-ms-overflow-style:none;scrollbar-width:none}.product-image{transition:transform .6s cubic-bezier(.2,.7,.2,1)}.product-card:hover .product-image{transform:scale(1.045)}.reveal{animation:rise .65s ease both}@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}@media(max-width:640px){.section-pad{padding:58px 20px}}
+
+/* SofaRush Atelier redesign — a distinct ink, ivory and oxblood direction */
+:root{font-family:'DM Sans',sans-serif;color:#211d1b;background:#f7f4ef;font-synthesis:none;text-rendering:optimizeLegibility;--atelier-ink:#211d1b;--atelier-wine:#542a2d;--atelier-copper:#bd8b67;--atelier-paper:#f7f4ef}
+::selection{background:#542a2d;color:#fff}
+.bg-forest{background-color:#542a2d!important}.text-forest{color:#542a2d!important}.border-forest{border-color:#542a2d!important}.bg-clay{background-color:#bd8b67!important}.text-clay{color:#986b4d!important}.bg-sage{background-color:#eee5dc!important}
+#home>div:first-child{background:#211d1b!important;min-height:650px!important}
+#home>div:first-child>div:first-child{background:#211d1b!important}
+#home>div:first-child>div:first-child>div{background:#211d1b!important}
+#home>div:first-child>div:first-child img{opacity:.86;object-position:center right;clip-path:polygon(29% 0,100% 0,100% 100%,19% 100%)}
+#home>div:first-child>div:first-child .bg-gradient-to-r{background:linear-gradient(90deg,#211d1b 0%,#211d1b 28%,rgba(33,29,27,.96) 38%,rgba(33,29,27,.58) 59%,rgba(33,29,27,.06) 100%)!important}
+#home h1{color:#f8f2e9!important;font-size:clamp(3.5rem,7vw,6.4rem)!important;letter-spacing:-.065em!important}
+#home .text-forest{color:#d4ad8b!important}
+#home p{color:rgba(248,242,233,.78)}
+#home button.bg-forest{background:#bd8b67!important;color:#211d1b!important;border-radius:3px!important;box-shadow:none!important}
+#home button.border-forest{border-color:rgba(248,242,233,.5)!important;color:#f8f2e9!important}
+#home .rounded-full{border-radius:3px!important}
+header{background:rgba(247,244,239,.97)!important;border-color:#e5ddd3!important}
+header .rounded-full{border-radius:3px!important}
+.section-pad{padding-top:96px;padding-bottom:96px}
+section#categories .rounded-2xl{border-radius:3px!important}
+section#categories .rounded-full{border-radius:3px!important}
+#collection{background:#eee7df!important}
+#collection .product-card{border-radius:3px!important}
+#collection .rounded-2xl,#collection .rounded-xl,#collection .rounded-full{border-radius:3px!important}
+#offers .rounded-\[28px\]{border-radius:3px!important}
+#offers{background:#f7f4ef}
+#offers .bg-forest{background:#542a2d!important}
+#offers .text-\[\#d8b19a\]{color:#e0b895!important}
+#about{background:#eae0d7!important}
+#about img{border-radius:3px!important}
+#about .rounded-2xl,#about .rounded-\[26px\]{border-radius:3px!important}
+#contact{background:#eee7df!important}
+#contact .rounded-\[28px\]{border-radius:3px!important}
+#contact .bg-\[\#e5e9e0\]{background:#e5d8cc!important}
+footer{background:#211d1b!important}
+footer .text-\[\#d8a48b\]{color:#d4ad8b!important}
+.product-card{border-radius:3px!important;box-shadow:0 8px 24px rgba(33,29,27,.06)}
+.product-card button,.product-card a{border-radius:3px!important}
+button,a,input,select{transition-duration:180ms}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #bd8b67;outline-offset:3px}
+@media(max-width:640px){#home>div:first-child{min-height:610px!important}#home>div:first-child>div:first-child img{clip-path:none;opacity:.38}#home>div:first-child>div:first-child .bg-gradient-to-r{background:linear-gradient(90deg,rgba(33,29,27,.96),rgba(33,29,27,.62))!important}.section-pad{padding:64px 20px}}
